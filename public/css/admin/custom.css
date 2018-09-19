@@ -1,0 +1,103 @@
+.treeview-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 15px;
+  padding-left: 45px;
+  margin-top: 1px;
+}
+
+a.text-view {
+  color: aliceblue;
+  font-size: larger;
+}
+
+.single-link {
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 13px 26px 1px #0e0e0e;
+  transition: .5s;
+  min-height: 150px;
+}
+
+.single-link:hover {
+  box-shadow: 5px 13px 26px 1px #5151b5;
+}
+
+.app-title {
+  margin-top: -30px;
+  background: #b9c2d2;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #a7a7a7;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 70px;
+  width: 230px;
+  overflow: auto;
+  z-index: 10;
+  background-color: #201927;
+  -webkit-box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.3s ease,
+  width 0.3s ease;
+  -o-transition: left 0.3s ease,
+  width 0.3s ease;
+  transition: left 0.3s ease,
+  width 0.3s ease;
+}
+
+.app-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #394e4c;
+    z-index: 1030;
+    padding-right: 15px;
+}
+
+.app-header__logo {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: block;
+    width: 230px;
+    background-color: #2b4845 !important;
+}
+
+.btn-primary{
+  background: #1d1d44;
+}
+
+.card-body.form-body {
+    background: white;
+}

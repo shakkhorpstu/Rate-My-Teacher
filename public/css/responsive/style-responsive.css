@@ -1,0 +1,344 @@
+/* #Media Queries Responsive
+================================================== */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+	
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 980px) and (max-width: 1199px) {
+	/* Home */
+	#header #header-top .top-nav h1{margin-left: 14%;}
+	#academics-holder ul#schools-ul{width: 28%;}
+	#banner-holder .sl-slider .sl-slide .sl-slide-inner > div{left: 0; right: 0; margin: 0px auto; text-align: center;}
+	#academics-holder #dept-list-container ul li{min-height: 140px;}
+	#banner-holder .home-slider div.caption-container{left: 10%; text-align: center;}
+	/* Home End*/
+
+	/* About SUST */
+	#department #department-container .department-section{width: 65%;}
+	.news-and-events-images-ul li{width: 40%;}
+	#inner-page #banner-holder #dept-title{font-size: 32px;}
+	/* About SUST End */
+
+	/* Academics */
+	#department #department-container .department-faculty ul.faculty-member li{margin-right: 85px;}
+	#department #department-container .department-section .department-grid-ul li{width: 100% !important; position: relative !important; left: 0 !important; top: inherit !important; margin-bottom: 15px;}
+	.schools-accordion .department-ul > li{padding-right: 15px;}
+	/* Academics End */
+
+	/* News & Events */
+	.news-detail-headline{font-size: 20px; text-align: justify;}
+	.update-news-events-ul li a{font-size: 20px;}
+	/* News & Events End */
+
+	/* Contact Us */
+	.contact_address_container img{max-width: 100px; margin-bottom: 10px;}
+	/* Contact Us End */
+
+	/* Virtual Tour */
+	.virtual-tour-ul li{width: 25%;}
+	/* Virtual Tour End */
+
+	/* Admission */
+	#department #department-container  table#application-info-table{width: 100%;}
+	/* End Admission */
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+	/* Home */
+	#header #header-top .top-nav h1{position: relative; margin-left: 0; text-align: center; float: none;}
+	#academics-holder ul#schools-ul{width: 36%;}
+	#academics-holder #dept-list-container{width: 60%;}
+	#academics-holder #dept-list-container ul li{width: 32.7%; min-height: 150px;}
+	#academics-holder #dept-list-container ul li a{padding: 5px;}
+	#header #header-top .logo{position: relative; margin: 15px auto 0; display: table;}
+	#header #nav-bar .main-nav > ul > li > a{padding: 15px 10px; padding-right: 10px !important;}
+	#banner-holder .sl-slider .sl-slide .sl-slide-inner > div{left: 0; right: 0; margin: 0px auto; text-align: center;}
+	#academics-holder #dept-list-container h3{font-size: 18px; padding: 5px 10px 10px;}
+	#full-footer #prefooter ul.content > li{width: 30%; margin-bottom: 35px;}
+	.flexslider .slides .flex-caption{font-size: 12px; line-height: 16px;}
+	#banner-holder .home-slider div.caption-container{left: 10%; text-align: center;}
+	#header #header-top .top-nav .downloads-a,
+	#header #header-top .top-nav .forms-and-downloads-a{display: none;}
+	/* Home End*/
+
+	/* About SUST */
+	#department #department-container .department-section{width: 60%;}
+	.news-events-ul li{display: table; margin: 0px auto 20px; text-align: justify;}
+	.news-events-ul li .date{display: block; margin: 0px auto;}
+	.news-and-events-images-ul li{width: 42%;}
+	#inner-page #banner-holder #dept-title{font-size: 28px;}
+	/* About SUST End */
+
+	/*Academics*/
+	#department #department-container .department-section .department-grid-ul li{width: 100% !important; position: relative !important; left: 0 !important; top: inherit !important; margin-bottom: 15px;}
+	#department #department-container .department-section > .department-overview .message .content .img{float: none;}
+	#department #department-container .curriculam-accordion table.curriculum-table tr td a{height: inherit;}
+	.accordion li div.scroll{padding: 0;background: transparent;overflow-x: scroll;}
+	#department #department-container .department-faculty ul.faculty-member li{width: 45%;}
+	.og-details ul.contact-info-ul li{width: 100% !important;}
+	.faculty-detail .thumb{float: none; margin-top: 0; width: 200px;}
+	.og-expander h3{font-size: 20px;}
+	.og-details h3.contact-info-h3{font-size: 16px;}
+	.og-details h5{line-height: 20px;}
+	.schools-accordion .department-ul > li{width: 100%;}
+	/*Academics End*/
+
+	/* News & Events */
+	.news-detail-headline{text-align: justify; font-size: 20px;}
+	/* News & Events End */
+
+	/* Institute Events */
+	.update-news-events-ul li a{font-size: 18px;}
+	.update-news-events-ul li .date{display: none;}
+	/* Institute Events End */
+
+	/* Contact Us */
+	.contact_address_container img{max-width: 100px; margin-bottom: 10px;}
+	/* Contact Us End */
+
+	/* Administration */
+	.message-large-view{display: none;}
+	.message-small-view{display: block; margin-top: 20px; margin-bottom: 30px;}
+	/* Administration End */
+
+	/* Admission */
+	#application-info-table tr td.custom{width: auto;}
+	#department #department-container .form-container input[type="text"]{width: 200px;}
+	#department #department-container .form-container label{font-size: 14px;}
+	#department #department-container  table#application-info-table{width: 100%;}
+	/* End Admission */
+
+	/* Organization Detail */
+	.organization-detail-content ul li{float: none; width: 100%;}
+	#department #department-container .department-section .department-overview h2.photo-of-the-week-title{margin-top: 0px;}
+	/* Organization Detail End */
+
+	/* Virtual Tour */
+	.virtual-tour-ul li{width: 33%;}
+	/* Virtual Tour End */
+}
+
+/* All Mobile Sizes (devices and browser)
+------------------------- */
+@media only screen and (max-width: 767px) {
+	a.mobilemenu{display: block;}
+	.mobile-menu-logo{display: table;}
+	#header #nav-bar, #header #header-top .top-nav h1, .logo, #full-footer #prefooter, #inner-page #banner-holder, #common-banner, #department #department-container .department-side-nav{display: none;}
+	a.more{width: 50%; /*padding: 15px 20px 15px;*/ margin: 0px auto;}
+	#department #department-container .department-section{padding: 0;}
+	.mobile-view{display: block !important;}
+	.mobile-breadcrumb{display: none !important;}
+	.large-view{display: none;}
+	#department #department-container .department-section .department-overview h2{font-size: 20px;}
+	#department #department-container .department-section .banner-image{margin-bottom: 10px;}
+	#header.fixed{display: none;}
+	.table-container-div{overflow-x: scroll;}
+	.flexslider .slides .flex-caption, .flex-control-nav{display: none !important;}
+	#header #header-top .top-nav .downloads-a,
+	#header #header-top .top-nav .forms-and-downloads-a{display: none;}
+	
+	/*Home*/
+	#banner-holder .sl-slider .sl-slide .sl-slide-inner > div{left: 0; right: 0; margin: 0px auto; text-align: center;}
+	#wt-text-holder #bg-tab{display: none;}
+	#academics-holder #dept-list-container h3{font-size: 16px;}
+	#home-tab-content{margin-top: 12px; width: 100%;}
+	#academics-holder ul#schools-ul, #academics-holder #dept-list-container{width: 100%;}
+	#academics-holder ul#schools-ul{min-height: inherit; margin-bottom: 40px;}
+	#academics-holder #dept-list-container ul li{width: 49.5%; min-height: 100px;}
+	#academics-holder #dept-list-container ul li span{padding-top: 35px;}
+	#academics-holder #dept-list-container ul li a{min-height: 100px;}
+	#news-events-holder ul#news-events > li{display: block; width: 100%; margin-bottom: 30px;}
+	#news-events-holder ul#news-events > li:first-child > div:after{border-style: none;}
+	#news-events-holder ul#news-events > li:first-child > div{padding-right: 0;}
+	#news-events-holder ul#news-events > li:last-child > div{padding-left: 0;}
+	#news-events-holder ul.news > li > div > .desc > a{float: left;}
+	#full-footer #footer ul.links{display: none;}
+	#full-footer #footer p{text-align: center;}
+	.sl-slider-wrapper, .large-screen-slider, .bx-wrapper{display: none;}
+	.home-mobile-slider{display: block;}
+	#banner-holder{min-height: inherit; background-color: transparent;}
+	#news-events-holder ul.news > li > div > .date{display: table; margin: 0px auto; width: initial;}
+	#news-events-holder ul.news > li > div > .desc{display: table; margin: 10px auto 0px; text-align: center;}
+	#news-events-holder ul.news > li > div > .desc > a{float: none;}
+	#news-events-holder ul.news > li > div > .desc > .img{float: none; margin: 15px auto;}
+	#news-events-holder ul.news > li > div > .date > div > span{display: inline-block; font-size: inherit;}
+	#news-events-holder ul.news > li > div > .date > div{font-size: 18px;}
+	#academics-holder ul#schools-ul li.active::before{display: none;}
+	#academics-holder #dept-list-container{min-height: inherit;}
+	.flex-direction-nav a{display: none;}
+	/*Home End*/
+
+	/* About SUST */
+	#department #department-container .department-section, .write ul li ul li, .write ul li textarea{width: 100%;}
+	.news-events-ul li{display: table; margin: 0px auto 20px; text-align: center;}
+	.news-events-ul li .date{display: block; margin: 0px auto;}
+	#department #department-container .department-section > .department-overview{padding: 0;}
+	.news-and-events-images-ul li{width: 45%;}
+	.news-and-events-images-ul li a{pointer-events : none;}
+	.news-and-events-images-ul li div{display: none;}
+	.contact_address_container ul li{text-align: center;}
+	.contact_address_container{margin: 20px auto 15px;}
+	.contact_address_container img{float: none; display: block; margin: 0px auto;}
+	#department #department-container .department-faculty h2{font-size: 20px;}
+	/* About SUST End */
+
+	/*Academics*/
+	#department #department-container .department-section .department-grid-ul li{width: 100% !important; position: relative !important; left: 0 !important; top: inherit !important; margin-bottom: 15px;}
+	#department #department-container .department-section > .department-overview .message .content .img{float: none; width: 40%;}
+	#department #department-container .department-section > .department-overview .message .content h4{font-size: 16px;}
+	#department #department-container .department-section > .department-overview > h2{margin-bottom: 10px;}
+	#department #department-container .curriculam-accordion table.curriculum-table tr td a{height: inherit; padding: 0;}
+	.accordion li div.scroll{padding: 0;background: transparent;overflow-x: scroll;}
+	.og-grid li{width: 45% !important;}
+	#department #department-container .department-faculty ul.faculty-member li h4{width: inherit;}
+	.og-details ul.contact-info-ul li{width: 100% !important;}
+	.faculty-detail .thumb{float: none; margin-top: 0; width: 200px;}
+	.accordion li, .accordion li ul li{font-size: 13px;}
+	#department #department-container table.curriculum-table tr td, #department #department-container table.curriculum-table tr th{padding: 5px; font-size: 13px;}
+	.accordion li div{padding: 5px 0 5px;}
+	.og-expander h3{font-size: 20px;}
+	.og-details h3.contact-info-h3{font-size: 16px;}
+	.og-details h5{line-height: 20px;}
+	#department #department-container .curriculam-accordion table.curriculum-table tr td a{pointer-events: none;}
+	.schools-accordion .department-ul > li{padding-right: 15px;}
+	a.more{margin-top: 10px;}
+	/*Academics End*/
+
+	/* Administrations */
+	.other-offices-container h3{font-size: 16px;}
+	.other-offices-container h4{font-size: 14px;}
+	.dynamic-content-holder h3{font-size: 18px;}
+	.message-large-view{display: none;}
+	.message-small-view{display: block; margin-top: 20px; margin-bottom: 30px;}
+	#department #department-container .department-section > .department-overview ul.activities-ul li{margin-right: 5px; margin-bottom: 5px;}
+	#department #department-container .department-section > .department-overview ul.activities-ul li img{max-width: 250px;}
+	#department #department-container .department-section > .department-overview ul.activities-ul li a{pointer-events: none;}
+	.og-grid{margin: 0px;}
+	/* Administrations End */
+
+	/* Campus Life */
+	.dynamic-content-holder ul{margin: 10px 0px 30px 15px;}
+	/* Campus Life End */
+
+	/* News & Events */
+	.news-detail-headline{text-align: justify; font-size: 18px;}
+	/* News & Events End */
+
+	/* Institute Events */
+	.update-news-events-ul li a{font-size: 18px;}
+	.update-news-events-ul li .date{display: none;}
+	.update-news-events-ul li{text-align: left;}
+	/* Institute Events End */
+
+	/* Contact Us */
+	.contact_address_container img{max-width: 100px; margin-bottom: 10px;}
+	/* Contact Us End */
+
+	/* Gallery */
+	.gallery-ul li{width: auto; display: table; margin: 20px auto;}
+	.gallery-ul li a{pointer-events : none;}
+	.virtual-tour-ul li a{pointer-events : auto;}
+	.gallery-ul li:hover a::before{margin-left: -100%;}
+	.gallery-ul li:hover a::after{display: none;}
+	.virtual-tour-ul li a::after{display: block !important; margin: -12px auto 0;}
+
+	.pp_pic_holder{width: 100% !important; left: 0 !important;}
+	div.pp_pic_holder .pp_content_container .pp_right {padding-right: 0!important;}
+	.pp_details {width: 100%!important; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important;}
+	div.pp_pic_holder .pp_content_container #pp_full_res iframe {width: 100% !important;height: 100% !important;}
+	a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom {display: none!important;}
+	.pp_content {width: 100%!important;height: auto!important; border: 5px solid #fff;}
+	div.pp_pic_holder .pp_content_container {padding: 0 !important; margin: 0 10px !important;}
+	div.facebook .pp_description {margin-left: 10px !important;}
+	a.pp_close {right: 10px!important; top: 10px!important;}
+	#pp_full_res{height: 250px !important;}
+
+	/* Gallery End */
+
+	/* Organization Detail */
+	.organization-detail-content ul li{float: none; width: 100%;}
+	#department #department-container .department-section .department-overview h2.photo-of-the-week-title{margin-top: 0px;}
+	/* Organization Detail End */
+
+	/* Admission */
+	#application-info-table tr td.custom{width: auto;}
+	#department #department-container .form-container input[type="text"], #department #department-container .form-container input[type="password"]{width: 200px;}
+	#department #department-container .form-container label{font-size: 14px;}
+	#department #department-container  table#application-info-table{width: 100%;}
+	/* End Admission */
+
+	/* Research */
+	.online-journals-ul li span{display: block;}
+	/* Research End */
+}
+
+
+/* Mobile Landscape & Tablet Portrait
+------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+/* Mobile Portrait
+------------------------- */
+@media only screen and (max-width: 479px) {
+	a.more{width: 75%; margin: 30px auto 0px; max-width: none; padding: 15px 20px 15px;}
+	a.more:after{left: inherit; bottom: inherit; top: 17px; right: 20px;}
+	#full-footer #footer-social ul.content > li{margin: 0px 10px;}
+	#full-footer #footer-social ul.content > li.li-mobile-hide{display: none;}
+	#full-footer{padding-top: 20px;}
+	.mobile-menu-logo img{margin: 10px auto; max-width: 30%;}
+
+	/*Home*/
+	#academics-holder ul#schools-ul, #academics-holder #dept-list-container{margin-top: 25px;}
+	#academics-holder #dept-list-container ul li{width: 100%;}
+	#department #department-container .department-section .department-grid-ul li{height: 200px;}
+	#academics-holder #dept-list-container h3{text-align: center;}
+	#academics-holder ul#schools-ul li a#schools-a-nav-4 i{vertical-align: top; padding-top: 22px;}
+	/*Home End*/
+
+	/* About SUST */
+	#department #department-container .department-section > .department-overview > h2{font-size: 18px;}
+	.news-and-events-images-ul li{width: 100%;}
+	.contact_address_container ul li:first-child{text-align: center;}
+	.contact_address_container img{float: none;display: block;margin: 0px auto 10px;}
+	/* About SUST End */
+
+	/*Academics*/
+	#department #department-container .department-section > .department-overview .message .content .img{float: none; width: 70%;}
+	.og-grid li{width: 100% !important;}
+	.og-details p.research-interest-p{display: none;}
+	.schools-accordion .department-ul > li{width: 100%;}
+	/*Academics End*/
+
+	/* Administrations */
+	.dynamic-content-holder.campus-life ul li{padding: 10px 0px;}
+	/* Administrations End */
+
+	/* News & Events */
+	.news-detail-headline{font-size: 16px;}
+	/* News & Events End */
+
+	/* Institute Events */
+	.news-events-ul li .events-date{padding: 0; margin-right: 10px; width: 60px; padding-top: 5px;}
+	.news-events-ul li .events-date span.day{font-size: 20px;}
+	.update-news-events-ul li a{font-size: 16px;}
+	/* Institute Events End */
+
+	/* IML */
+	#department #department-container .department-section > .department-overview > ul.iml-director-ul img{max-width: 170px;}
+	/* IML End */
+
+	/* Gallery */
+	#gallery-nav li{display: table; margin-bottom: 15px;}
+	#gallery-nav li.bar{display: none;}
+	/* Gallery End */
+	
+}

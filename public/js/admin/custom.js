@@ -1,0 +1,1 @@
+$('#sampleTable').DataTable();
